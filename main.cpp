@@ -5,6 +5,10 @@ int add(int x, int y) {
     return x + y;
 }
 
+int subtract(int x, int y) {
+    return x - y;
+}
+
 int main() {
     cout << "Welcome to the calculator!" << endl;
     cout << "Enter two numbers to add: ";
